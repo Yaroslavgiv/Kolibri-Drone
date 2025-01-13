@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "config_loader.h"
 #include <iostream>
 #include <fstream>
@@ -44,4 +45,15 @@ void ConfigLoader::parseConfigLine(const std::string& line) {
     if (std::getline(stream, key, '=') && std::getline(stream, value)) {
         configData[key] = value;
     }
+=======
+
+#include <iostream>
+#include "config_loader.h"
+
+// ����� �������� ������������ �� �����
+void ConfigLoader::loadConfig(const std::string& filepath) {
+    std::cout << "�������� ������������ �� �����: " << filepath << std::endl;
+
+    // ��������: ���������� �������� ������������ ����� ��������� �����
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

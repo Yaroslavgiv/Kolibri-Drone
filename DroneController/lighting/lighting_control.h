@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef LIGHTING_CONTROL_H
 #define LIGHTING_CONTROL_H
 
@@ -28,3 +29,19 @@ private:
 };
 
 #endif // LIGHTING_CONTROL_H
+=======
+#pragma once
+#ifndef LIGHTING_CONTROL_H
+#define LIGHTING_CONTROL_H
+
+class LightingControl {
+public:
+    // Включение подсветки
+    void turnOnLights();
+
+    // Выключение подсветки
+    void turnOffLights();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

@@ -1,4 +1,5 @@
 #include "server_comm.h"
+<<<<<<< HEAD
 #include <curl/curl.h>
 #include <iostream>
 
@@ -56,4 +57,28 @@ size_t ServerComm::writeCallback(void* contents, size_t size, size_t nmemb, std:
     size_t totalSize = size * nmemb;
     userData->append((char*)contents, totalSize);
     return totalSize;
+=======
+#include <iostream>
+
+// Подключение к серверу
+void ServerComm::connectToServer() {
+    std::cout << "Подключение к серверу через GSM/Ethernet..." << std::endl;
+
+    // Заглушка: Реализация соединения через TCP/IP
+}
+
+// Отправка данных на сервер
+void ServerComm::sendDataToServer(const std::string& data) {
+    std::cout << "Отправка данных на сервер: " << data << std::endl;
+
+    // Заглушка: Реализация отправки данных через HTTP/TCP
+}
+
+// Получение команды от сервера
+std::string ServerComm::receiveServerCommand() {
+    std::cout << "Получение команды от сервера..." << std::endl;
+
+    // Заглушка: Вернуть тестовую команду
+    return "Server Command: Land Drone";
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

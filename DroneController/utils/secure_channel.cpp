@@ -1,5 +1,6 @@
 #include "secure_channel.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <curl/curl.h>
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -49,4 +50,12 @@ std::string SecureChannel::receiveData() {
 
     // Р—Р°РіР»СѓС€РєР°: Р—РґРµСЃСЊ РјРѕР¶РЅРѕ РґРѕР±Р°РІРёС‚СЊ Р»РѕРіРёРєСѓ РїРѕР»СѓС‡РµРЅРёСЏ РґР°РЅРЅС‹С…
     return "Received data from secure channel.";
+=======
+
+// Метод установления защищённого соединения
+void SecureChannel::establishSecureConnection() {
+    std::cout << "Установление защищённого соединения..." << std::endl;
+
+    // Заглушка: Использование OpenSSL или Boost.Asio
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

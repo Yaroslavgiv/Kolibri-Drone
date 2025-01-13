@@ -1,6 +1,7 @@
 #include "cargo_bay_control.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 CargoBayControl::CargoBayControl() : cargoBayStatus(false) {
     std::cout << "CargoBayControl initialized." << std::endl;
@@ -38,4 +39,18 @@ void CargoBayControl::closeCargoBay() {
 // РџСЂРѕРІРµСЂРёС‚СЊ, РѕС‚РєСЂС‹С‚ Р»Рё РѕС‚СЃРµРє
 bool CargoBayControl::isCargoBayOpen() {
     return cargoBayStatus;
+=======
+// Открытие грузового отсека
+void CargoBayControl::openCargoBay() {
+    std::cout << "Открытие грузового отсека..." << std::endl;
+
+    // Заглушка: Управление GPIO для открытия
+}
+
+// Закрытие грузового отсека
+void CargoBayControl::closeCargoBay() {
+    std::cout << "Закрытие грузового отсека..." << std::endl;
+
+    // Заглушка: Управление GPIO для закрытия
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

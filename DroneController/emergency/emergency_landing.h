@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef EMERGENCY_LANDING_H
 #define EMERGENCY_LANDING_H
 
@@ -19,3 +20,16 @@ private:
 };
 
 #endif // EMERGENCY_LANDING_H
+=======
+#pragma once
+#ifndef EMERGENCY_LANDING_H
+#define EMERGENCY_LANDING_H
+
+class EmergencyLanding {
+public:
+    // Выполнение аварийной посадки
+    void performEmergencyLanding();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

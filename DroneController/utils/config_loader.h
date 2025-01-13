@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+#pragma once
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 #ifndef CONFIG_LOADER_H
 #define CONFIG_LOADER_H
 
 #include <string>
+<<<<<<< HEAD
 #include <map>
 
 class ConfigLoader {
@@ -18,3 +23,13 @@ private:
 };
 
 #endif // CONFIG_LOADER_H
+=======
+
+class ConfigLoader {
+public:
+    // Загрузка конфигурации из файла
+    void loadConfig(const std::string& filepath);
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

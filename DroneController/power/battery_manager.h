@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef BATTERY_MANAGER_H
 #define BATTERY_MANAGER_H
 
@@ -21,3 +22,19 @@ private:
 };
 
 #endif // BATTERY_MANAGER_H
+=======
+#pragma once
+#ifndef BATTERY_MANAGER_H
+#define BATTERY_MANAGER_H
+
+class BatteryManager {
+public:
+    // Проверка уровня заряда батареи
+    void checkBatteryLevel();
+
+    // Уведомление о низком уровне заряда
+    void notifyLowBattery();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

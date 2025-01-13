@@ -1,6 +1,7 @@
 #include "diagnostics.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 Diagnostics::Diagnostics(SensorManager& sensorManager)
     : sensorManager(sensorManager) {
@@ -54,4 +55,11 @@ bool Diagnostics::checkSensor(const SensorData& data) {
         default:
             return false;
     }
+=======
+// Диагностика сенсоров
+void Diagnostics::runDiagnostics() {
+    std::cout << "Выполнение диагностики сенсоров..." << std::endl;
+
+    // Заглушка: Реализация проверки состояния сенсоров
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

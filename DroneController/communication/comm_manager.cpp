@@ -1,6 +1,7 @@
 #include "comm_manager.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 CommManager::CommManager() {
     std::cout << "Communication manager initialized." << std::endl;
@@ -22,4 +23,20 @@ void CommManager::manageRadioChannel(const std::string& action) {
 void CommManager::manageWiFi(const std::string& action) {
     std::cout << "WiFi module: " << action << std::endl;
     // Р›РѕРіРёРєР° СѓРїСЂР°РІР»РµРЅРёСЏ WiFi
+=======
+// Метод подключения к центральному серверу
+void CommManager::connectToServer() {
+    std::cout << "Подключение к центральному серверу через GSM/Ethernet..." << std::endl;
+
+    // Здесь будет реализован код подключения через сеть
+    // Пример: использовать библиотеку Boost.Asio для TCP-соединения
+}
+
+// Метод подключения к дронбоксу
+void CommManager::connectToDronebox() {
+    std::cout << "Подключение к дронбоксу через WiFi..." << std::endl;
+
+    // Здесь будет реализован код подключения через WiFi
+    // Пример: использовать библиотеку для работы с WiFi
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

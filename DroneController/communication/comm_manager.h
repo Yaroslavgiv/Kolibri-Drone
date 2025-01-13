@@ -3,6 +3,7 @@
 
 #include <string>
 
+<<<<<<< HEAD
 class CommManager {
 public:
     CommManager();                          // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -12,3 +13,16 @@ public:
 };
 
 #endif // COMM_MANAGER_H
+=======
+// Класс для управления коммуникациями
+class CommManager {
+public:
+    // Подключение к центральному серверу
+    void connectToServer();
+
+    // Подключение к дронбоксу
+    void connectToDronebox();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

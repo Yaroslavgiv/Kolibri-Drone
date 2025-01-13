@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef TELEMETRY_LOGGER_H
 #define TELEMETRY_LOGGER_H
 
@@ -25,3 +26,16 @@ private:
 };
 
 #endif // TELEMETRY_LOGGER_H
+=======
+#pragma once
+#ifndef TELEMETRY_LOGGER_H
+#define TELEMETRY_LOGGER_H
+
+class TelemetryLogger {
+public:
+    // Логирование телеметрии
+    void logTelemetry();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

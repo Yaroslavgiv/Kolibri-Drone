@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef EQUIPMENT_MONITOR_H
 #define EQUIPMENT_MONITOR_H
 
@@ -20,3 +21,19 @@ private:
 };
 
 #endif // EQUIPMENT_MONITOR_H
+=======
+#pragma once
+#ifndef EQUIPMENT_MONITOR_H
+#define EQUIPMENT_MONITOR_H
+
+class EquipmentMonitor {
+public:
+    // ћониторинг состо€ни€ всех модулей оборудовани€
+    void monitorEquipment();
+
+    // ƒиагностика состо€ни€ системы
+    void runDiagnostics();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

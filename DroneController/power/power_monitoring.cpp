@@ -1,5 +1,6 @@
 #include "power_monitoring.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <cmath> // Р”Р»СЏ СЂР°СЃС‡С‘С‚РѕРІ
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -45,4 +46,20 @@ bool PowerMonitoring::isPowerStable() {
     }
     std::cout << "Power is stable: " << voltage << " V" << std::endl;
     return true;
+=======
+
+// Получение текущего уровня заряда
+float PowerMonitoring::getBatteryLevel() {
+    std::cout << "Получение уровня заряда батареи..." << std::endl;
+
+    // Заглушка: Возврат тестового значения
+    return 75.5f;
+}
+
+// Мониторинг энергопотребления
+void PowerMonitoring::monitorPowerUsage() {
+    std::cout << "Мониторинг энергопотребления..." << std::endl;
+
+    // Заглушка: Реализация проверки напряжения и тока
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

@@ -1,5 +1,6 @@
 #include "lighting_control.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <thread>
 #include <chrono>
 
@@ -73,4 +74,19 @@ void LightingControl::updateHardware(LightType light) {
               << " with brightness: " << brightness << "%" << std::endl;
 
     // РџСЂРёРјРµСЂ РёРјРёС‚Р°С†РёРё РѕС‚РїСЂР°РІРєРё РґР°РЅРЅС‹С… РЅР° РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ
+=======
+
+// Метод включения подсветки
+void LightingControl::turnOnLights() {
+    std::cout << "Включение подсветки..." << std::endl;
+
+    // Заглушка: Управление подсветкой будет добавлено позже
+}
+
+// Метод выключения подсветки
+void LightingControl::turnOffLights() {
+    std::cout << "Выключение подсветки..." << std::endl;
+
+    // Заглушка: Управление подсветкой будет добавлено позже
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

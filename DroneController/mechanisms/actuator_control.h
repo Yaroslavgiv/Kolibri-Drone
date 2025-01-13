@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef ACTUATOR_CONTROL_H
 #define ACTUATOR_CONTROL_H
 
@@ -24,3 +25,19 @@ private:
 };
 
 #endif // ACTUATOR_CONTROL_H
+=======
+#pragma once
+#ifndef ACTUATOR_CONTROL_H
+#define ACTUATOR_CONTROL_H
+
+class ActuatorControl {
+public:
+    // Открытие грузового отсека
+    void openCargoBay();
+
+    // Закрытие грузового отсека
+    void closeCargoBay();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

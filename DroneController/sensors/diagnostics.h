@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef DIAGNOSTICS_H
 #define DIAGNOSTICS_H
 
@@ -19,3 +20,16 @@ private:
 };
 
 #endif // DIAGNOSTICS_H
+=======
+#pragma once
+#ifndef DIAGNOSTICS_H
+#define DIAGNOSTICS_H
+
+class Diagnostics {
+public:
+    // Диагностика сенсоров
+    void runDiagnostics();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

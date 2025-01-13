@@ -1,8 +1,13 @@
+<<<<<<< HEAD
+=======
+#pragma once
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 #ifndef CARGO_BAY_CONTROL_H
 #define CARGO_BAY_CONTROL_H
 
 class CargoBayControl {
 public:
+<<<<<<< HEAD
     CargoBayControl();                          // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
     ~CargoBayControl();                         // Р”РµСЃС‚СЂСѓРєС‚РѕСЂ
 
@@ -15,3 +20,13 @@ private:
 };
 
 #endif // CARGO_BAY_CONTROL_H
+=======
+    // Открытие грузового отсека
+    void openCargoBay();
+
+    // Закрытие грузового отсека
+    void closeCargoBay();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

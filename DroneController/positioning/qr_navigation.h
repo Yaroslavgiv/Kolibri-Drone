@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef QR_NAVIGATION_H
 #define QR_NAVIGATION_H
 
@@ -16,3 +17,16 @@ private:
 };
 
 #endif // QR_NAVIGATION_H
+=======
+#pragma once
+#ifndef QR_NAVIGATION_H
+#define QR_NAVIGATION_H
+
+class QRNavigation {
+public:
+    // Выполнение навигации по QR-кодам
+    void navigateByQRCode();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

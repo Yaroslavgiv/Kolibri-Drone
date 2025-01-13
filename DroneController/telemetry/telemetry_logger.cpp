@@ -1,5 +1,6 @@
 #include "telemetry_logger.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <curl/curl.h>
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -50,4 +51,12 @@ void TelemetryLogger::sendToServer(const std::string& serverAddress) {
 void TelemetryLogger::clearCache() {
     telemetryCache.clear();
     std::cout << "Telemetry cache cleared." << std::endl;
+=======
+
+// Метод логирования телеметрии
+void TelemetryLogger::logTelemetry() {
+    std::cout << "Логирование телеметрии..." << std::endl;
+
+    // Заглушка: Реализация сохранения телеметрии будет добавлена позже
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

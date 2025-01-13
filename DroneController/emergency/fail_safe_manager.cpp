@@ -1,6 +1,7 @@
 #include "fail_safe_manager.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 FailSafeManager::FailSafeManager()
     : failureDetected(false), failureType("None") {
@@ -49,4 +50,18 @@ void FailSafeManager::resetFailSafe() {
 void FailSafeManager::logFailure(const std::string& message) {
     std::cout << "Logging failure: " << message << std::endl;
     // Р›РѕРіРёРєР° Р·Р°РїРёСЃРё РІ Р¶СѓСЂРЅР°Р» (РЅР°РїСЂРёРјРµСЂ, Р·Р°РїРёСЃСЊ РІ С„Р°Р№Р» РёР»Рё РѕС‚РїСЂР°РІРєР° РЅР° СЃРµСЂРІРµСЂ)
+=======
+// Метод активации аварийного режима
+void FailSafeManager::activateFailSafe() {
+    std::cout << "Активация аварийного режима..." << std::endl;
+
+    // Заглушка: Реализация остановки критических операций и перехода в безопасное состояние
+}
+
+// Метод деактивации аварийного режима
+void FailSafeManager::deactivateFailSafe() {
+    std::cout << "Деактивация аварийного режима..." << std::endl;
+
+    // Заглушка: Возврат системы к нормальной работе
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

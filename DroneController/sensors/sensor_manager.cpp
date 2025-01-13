@@ -1,5 +1,6 @@
 #include "sensor_manager.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <random> // Р”Р»СЏ СЌРјСѓР»СЏС†РёРё РґР°РЅРЅС‹С…
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -71,4 +72,19 @@ double SensorManager::fetchSensorData(SensorType type) {
         default:
             return 0.0;
     }
+=======
+
+// Метод инициализации всех датчиков
+void SensorManager::initializeSensors() {
+    std::cout << "Инициализация датчиков..." << std::endl;
+
+    // Заглушка: Инициализация конкретных датчиков (I2C/SPI) будет добавлена позже
+}
+
+// Метод чтения данных с датчиков
+void SensorManager::readSensorData() {
+    std::cout << "Чтение данных с датчиков..." << std::endl;
+
+    // Заглушка: Реализация работы с датчиками будет добавлена позже
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

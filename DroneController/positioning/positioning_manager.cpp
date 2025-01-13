@@ -1,5 +1,6 @@
 #include "positioning_manager.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <cmath> // Р”Р»СЏ РјР°С‚РµРјР°С‚РёС‡РµСЃРєРёС… СЂР°СЃС‡С‘С‚РѕРІ
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -64,4 +65,19 @@ double PositioningManager::calculateDistance(double lat1, double lon1, double la
                std::sin(dLon / 2) * std::sin(dLon / 2) * std::cos(lat1) * std::cos(lat2);
     double c = 2 * std::atan2(std::sqrt(a), std::sqrt(1 - a));
     return R * c;
+=======
+
+// Метод управления позиционированием дрона
+void PositioningManager::managePosition() {
+    std::cout << "Управление позиционированием дрона..." << std::endl;
+
+    // Заглушка: Реализация алгоритмов позиционирования будет добавлена позже
+}
+
+// Метод навигации с использованием QR-кодов
+void PositioningManager::qrNavigation() {
+    std::cout << "Навигация с использованием QR-кодов..." << std::endl;
+
+    // Заглушка: Добавить обработку изображений через OpenCV
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

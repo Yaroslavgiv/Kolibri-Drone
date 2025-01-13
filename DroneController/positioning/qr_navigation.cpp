@@ -1,5 +1,6 @@
 #include "qr_navigation.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <regex> // Р”Р»СЏ РёР·РІР»РµС‡РµРЅРёСЏ РґР°РЅРЅС‹С… СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРіСѓР»СЏСЂРЅС‹С… РІС‹СЂР°Р¶РµРЅРёР№
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -37,4 +38,12 @@ std::pair<double, double> QRNavigation::decodeCoordinates(const std::string& qrD
 
     std::cerr << "Failed to decode coordinates." << std::endl;
     return {0.0, 0.0}; // РљРѕРѕСЂРґРёРЅР°С‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+=======
+
+// Выполнение навигации по QR-кодам
+void QRNavigation::navigateByQRCode() {
+    std::cout << "Навигация с использованием QR-кодов..." << std::endl;
+
+    // Заглушка: Использовать OpenCV для обработки QR-кодов
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

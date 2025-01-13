@@ -1,6 +1,7 @@
 #include "equipment_monitor.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 EquipmentMonitor::EquipmentMonitor()
     : batteryStatus(true), sensorStatus(true), communicationStatus(true) {
@@ -42,4 +43,18 @@ void EquipmentMonitor::logStatus() {
     std::cout << "Battery: " << (batteryStatus ? "Healthy" : "Faulty") << std::endl;
     std::cout << "Sensors: " << (sensorStatus ? "Operational" : "Faulty") << std::endl;
     std::cout << "Communication: " << (communicationStatus ? "Stable" : "Unstable") << std::endl;
+=======
+// Метод мониторинга состояния оборудования
+void EquipmentMonitor::monitorEquipment() {
+    std::cout << "Мониторинг состояния оборудования..." << std::endl;
+
+    // Заглушка: Реализовать проверку работы модулей (например, подсветки, датчиков и связи)
+}
+
+// Метод диагностики состояния системы
+void EquipmentMonitor::runDiagnostics() {
+    std::cout << "Диагностика состояния системы..." << std::endl;
+
+    // Заглушка: Реализация диагностики оборудования с выводом статуса каждого модуля
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

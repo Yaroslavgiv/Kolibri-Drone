@@ -1,5 +1,6 @@
 #include "actuator_control.h"
 #include <iostream>
+<<<<<<< HEAD
 #include <map>
 
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
@@ -47,4 +48,22 @@ void ActuatorControl::sendSignalToActuator(ActuatorType actuator, bool state) {
               << " with state: " << (state ? "ON" : "OFF") << std::endl;
 
     // Р—РґРµСЃСЊ РјРѕР¶РЅРѕ РёРЅС‚РµРіСЂРёСЂРѕРІР°С‚СЊ Р»РѕРіРёРєСѓ СѓРїСЂР°РІР»РµРЅРёСЏ GPIO/I2C/SPI
+=======
+
+// Метод открытия грузового отсека
+void ActuatorControl::openCargoBay() {
+    std::cout << "Открытие грузового отсека..." << std::endl;
+
+    // Здесь реализуется отправка сигнала на GPIO для открытия механизма
+    // Например, вызов библиотеки WiringPi для управления пинами
+    std::cout << "Грузовой отсек открыт." << std::endl;
+}
+
+// Метод закрытия грузового отсека
+void ActuatorControl::closeCargoBay() {
+    std::cout << "Закрытие грузового отсека..." << std::endl;
+
+    // Здесь реализуется отправка сигнала на GPIO для закрытия механизма
+    std::cout << "Грузовой отсек закрыт." << std::endl;
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

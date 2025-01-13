@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef SERVER_COMM_H
 #define SERVER_COMM_H
 
@@ -18,3 +19,22 @@ private:
 };
 
 #endif // SERVER_COMM_H
+=======
+#pragma once
+#ifndef SERVER_COMM_H
+#define SERVER_COMM_H
+
+class ServerComm {
+public:
+    // Подключение к серверу
+    void connectToServer();
+
+    // Отправка данных на сервер
+    void sendDataToServer(const std::string& data);
+
+    // Получение команды от сервера
+    std::string receiveServerCommand();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

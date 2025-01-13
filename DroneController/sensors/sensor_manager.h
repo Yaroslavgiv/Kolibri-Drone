@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef SENSOR_MANAGER_H
 #define SENSOR_MANAGER_H
 
@@ -32,3 +33,19 @@ private:
 };
 
 #endif // SENSOR_MANAGER_H
+=======
+#pragma once
+#ifndef SENSOR_MANAGER_H
+#define SENSOR_MANAGER_H
+
+class SensorManager {
+public:
+    // Инициализация всех датчиков
+    void initializeSensors();
+
+    // Чтение данных с датчиков
+    void readSensorData();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

@@ -1,6 +1,7 @@
 #include "emergency_landing.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 EmergencyLanding::EmergencyLanding()
     : areConditionsSafe(false) {
@@ -49,4 +50,11 @@ void EmergencyLanding::sendLandingSignal() {
 void EmergencyLanding::stabilizeDrone() {
     std::cout << "Stabilizing drone before landing..." << std::endl;
     // Р›РѕРіРёРєР° СЃС‚Р°Р±РёР»РёР·Р°С†РёРё РґСЂРѕРЅР° (РЅР°РїСЂРёРјРµСЂ, РІС‹СЂР°РІРЅРёРІР°РЅРёРµ)
+=======
+// Метод выполнения аварийной посадки
+void EmergencyLanding::performEmergencyLanding() {
+    std::cout << "Выполнение аварийной посадки..." << std::endl;
+
+    // Заглушка: Добавить алгоритмы аварийной посадки
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

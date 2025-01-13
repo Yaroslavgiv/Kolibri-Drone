@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef SECURE_CHANNEL_H
 #define SECURE_CHANNEL_H
 
@@ -18,3 +19,16 @@ private:
 };
 
 #endif // SECURE_CHANNEL_H
+=======
+#pragma once
+#ifndef SECURE_CHANNEL_H
+#define SECURE_CHANNEL_H
+
+class SecureChannel {
+public:
+    // Установление защищённого соединения
+    void establishSecureConnection();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

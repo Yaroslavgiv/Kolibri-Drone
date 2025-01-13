@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef POSITIONING_MANAGER_H
 #define POSITIONING_MANAGER_H
 
@@ -24,3 +25,19 @@ private:
 };
 
 #endif // POSITIONING_MANAGER_H
+=======
+#pragma once
+#ifndef POSITIONING_MANAGER_H
+#define POSITIONING_MANAGER_H
+
+class PositioningManager {
+public:
+    // Управление позиционированием дрона
+    void managePosition();
+
+    // Навигация с использованием QR-кодов
+    void qrNavigation();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212

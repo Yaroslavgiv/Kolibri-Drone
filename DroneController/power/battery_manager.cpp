@@ -1,6 +1,7 @@
 #include "battery_manager.h"
 #include <iostream>
 
+<<<<<<< HEAD
 // РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 BatteryManager::BatteryManager()
     : batteryLevel(100.0), chargingStatus(false) {
@@ -62,4 +63,18 @@ void BatteryManager::stopCharging() {
 // РџСЂРѕРІРµСЂРёС‚СЊ, РёРґС‘С‚ Р»Рё Р·Р°СЂСЏРґРєР°
 bool BatteryManager::isCharging() {
     return chargingStatus;
+=======
+// Метод проверки уровня заряда батареи
+void BatteryManager::checkBatteryLevel() {
+    std::cout << "Проверка уровня заряда батареи..." << std::endl;
+
+    // Заглушка: Считывание данных с батареи будет добавлено позже
+}
+
+// Метод уведомления о низком уровне заряда
+void BatteryManager::notifyLowBattery() {
+    std::cout << "Уровень заряда низкий! Необходимо зарядить батарею." << std::endl;
+
+    // Заглушка: Добавить механизм уведомлений
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
 }

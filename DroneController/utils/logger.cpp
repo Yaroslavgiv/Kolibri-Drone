@@ -1,6 +1,7 @@
 #include "logger.h"
 #include <iostream>
 #include <fstream>
+<<<<<<< HEAD
 #include <ctime>
 
 // –í—Å–ø–æ–º–æ–≥–∞—Ç–µ–ª—å–Ω–∞—è —Ñ—É–Ω–∫—Ü–∏—è –¥–ª—è –ø–æ–ª—É—á–µ–Ω–∏—è —Ç–µ–∫—É—â–µ–≥–æ –≤—Ä–µ–º–µ–Ω–∏
@@ -18,10 +19,21 @@ void Logger::logInfo(const std::string& message) {
     std::ofstream logFile("log.txt", std::ios::app);
     if (logFile.is_open()) {
         logFile << "[INFO] " << getCurrentTime() << ": " << message << std::endl;
+=======
+
+// ÃÂÚÓ‰ Á‡ÔËÒË ËÌÙÓÏ‡ˆËÓÌÌÓ„Ó ÒÓÓ·˘ÂÌËˇ
+void Logger::logInfo(const std::string& message) {
+    std::cout << "[INFO]: " << message << std::endl;
+
+    std::ofstream logFile("log.txt", std::ios::app);
+    if (logFile.is_open()) {
+        logFile << "[INFO]: " << message << std::endl;
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
         logFile.close();
     }
 }
 
+<<<<<<< HEAD
 // –õ–æ–≥–∏—Ä–æ–≤–∞–Ω–∏–µ –ø—Ä–µ–¥—É–ø—Ä–µ–∂–¥–µ–Ω–∏—è
 void Logger::logWarning(const std::string& message) {
     std::cout << "[WARNING] " << getCurrentTime() << ": " << message << std::endl;
@@ -40,6 +52,15 @@ void Logger::logError(const std::string& message) {
     std::ofstream logFile("log.txt", std::ios::app);
     if (logFile.is_open()) {
         logFile << "[ERROR] " << getCurrentTime() << ": " << message << std::endl;
+=======
+// ÃÂÚÓ‰ Á‡ÔËÒË ÔÂ‰ÛÔÂÊ‰ÂÌËˇ
+void Logger::logWarning(const std::string& message) {
+    std::cout << "[WARNING]: " << message << std::endl;
+
+    std::ofstream logFile("log.txt", std::ios::app);
+    if (logFile.is_open()) {
+        logFile << "[WARNING]: " << message << std::endl;
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
         logFile.close();
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef POWER_MONITORING_H
 #define POWER_MONITORING_H
 
@@ -20,3 +21,19 @@ private:
 };
 
 #endif // POWER_MONITORING_H
+=======
+#pragma once
+#ifndef POWER_MONITORING_H
+#define POWER_MONITORING_H
+
+class PowerMonitoring {
+public:
+    // Получение текущего уровня заряда
+    float getBatteryLevel();
+
+    // Мониторинг энергопотребления
+    void monitorPowerUsage();
+};
+
+#endif
+>>>>>>> a219246406ed763c4bc64259160dfa1b095d3212
