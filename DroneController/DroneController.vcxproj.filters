@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="communication">
+      <UniqueIdentifier>{14f59986-a589-41e2-9253-4113a99828e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="positioning">
+      <UniqueIdentifier>{150226bc-7bbf-4397-8c81-9d22363f1e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mechanisms">
+      <UniqueIdentifier>{664f48f7-983d-4523-808c-8978dd4ab9e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sensors">
+      <UniqueIdentifier>{3b367060-b255-40aa-b4bd-92fe2c3b957c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="power">
+      <UniqueIdentifier>{129f3929-d536-4150-8252-b53fa99bee69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lighting">
+      <UniqueIdentifier>{a61ffa0d-afab-4a61-8beb-2f90b0e94a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="telemetry">
+      <UniqueIdentifier>{3c005298-721d-4bce-abd0-64ad1c189460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emergency">
+      <UniqueIdentifier>{0fe10182-6958-4b63-bbae-04947499b21e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a659725a-3db1-4e98-9259-ea531f885a51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DroneController.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="server_comm.cpp">
+      <Filter>communication</Filter>
+    </ClCompile>
+    <ClCompile Include="dronebox_comm.cpp">
+      <Filter>communication</Filter>
+    </ClCompile>
+    <ClCompile Include="comm_manager.cpp">
+      <Filter>communication</Filter>
+    </ClCompile>
+    <ClCompile Include="flight_controller_comm.cpp">
+      <Filter>communication</Filter>
+    </ClCompile>
+    <ClCompile Include="positioning_manager.cpp">
+      <Filter>positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="qr_navigation.cpp">
+      <Filter>positioning</Filter>
+    </ClCompile>
+    <ClCompile Include="actuator_control.cpp">
+      <Filter>mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="cargo_bay_control.cpp">
+      <Filter>mechanisms</Filter>
+    </ClCompile>
+    <ClCompile Include="sensor_manager.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="diagnostics.cpp">
+      <Filter>sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="battery_manager.cpp">
+      <Filter>power</Filter>
+    </ClCompile>
+    <ClCompile Include="power_monitoring.cpp">
+      <Filter>power</Filter>
+    </ClCompile>
+    <ClCompile Include="lighting_control.cpp">
+      <Filter>lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="telemetry_logger.cpp">
+      <Filter>telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="equipment_monitor.cpp">
+      <Filter>telemetry</Filter>
+    </ClCompile>
+    <ClCompile Include="emergency_landing.cpp">
+      <Filter>emergency</Filter>
+    </ClCompile>
+    <ClCompile Include="fail_safe_manager.cpp">
+      <Filter>emergency</Filter>
+    </ClCompile>
+    <ClCompile Include="error_handler.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="secure_channel.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="config_loader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="actuator_control.h">
+      <Filter>mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_manager.h">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="positioning_manager.h">
+      <Filter>positioning</Filter>
+    </ClInclude>
+    <ClInclude Include="sensor_manager.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="battery_manager.h">
+      <Filter>power</Filter>
+    </ClInclude>
+    <ClInclude Include="lighting_control.h">
+      <Filter>lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="telemetry_logger.h">
+      <Filter>telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="emergency_landing.h">
+      <Filter>emergency</Filter>
+    </ClInclude>
+    <ClInclude Include="config_loader.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="secure_channel.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="equipment_monitor.h">
+      <Filter>telemetry</Filter>
+    </ClInclude>
+    <ClInclude Include="fail_safe_manager.h">
+      <Filter>emergency</Filter>
+    </ClInclude>
+    <ClInclude Include="error_handler.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dronebox_comm.h">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="flight_controller_comm.h">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="server_comm.h">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="cargo_bay_control.h">
+      <Filter>mechanisms</Filter>
+    </ClInclude>
+    <ClInclude Include="power_monitoring.h">
+      <Filter>power</Filter>
+    </ClInclude>
+    <ClInclude Include="diagnostics.h">
+      <Filter>sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="qr_navigation.h">
+      <Filter>positioning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
